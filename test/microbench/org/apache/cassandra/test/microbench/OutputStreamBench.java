@@ -118,9 +118,7 @@ public class OutputStreamBench
 
             @Override
             public boolean isOpen()
-            {
-                return true;
-            }
+            { return true; }
 
             @Override
             public void close() throws IOException
