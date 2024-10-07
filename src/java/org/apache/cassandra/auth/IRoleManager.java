@@ -278,9 +278,7 @@ public interface IRoleManager extends AuthCache.BulkLoader<RoleResource, Set<Rol
      * @return
      */
     default boolean isExistingIdentity(String identity)
-    {
-        return false;
-    }
+    { return false; }
 
     /**
      * Called on the execution of DROP IDENTITY statement for removing a given identity from the identity_role table.
