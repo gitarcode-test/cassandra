@@ -36,9 +36,7 @@ public abstract class NativeFunction extends AbstractFunction
 
     @Override
     public final boolean isNative()
-    {
-        return true;
-    }
+    { return true; }
 
     @Override
     public boolean isPure()
