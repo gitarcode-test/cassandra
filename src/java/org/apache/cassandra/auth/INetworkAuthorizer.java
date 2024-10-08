@@ -27,9 +27,7 @@ public interface INetworkAuthorizer extends AuthCache.BulkLoader<RoleResource, D
      * If false the authorizer will not be called for authorization of resources.
      */
     default boolean requireAuthorization()
-    {
-        return true;
-    }
+    { return true; }
 
     /**
      * Setup is called once upon system startup to initialize the INetworkAuthorizer.
