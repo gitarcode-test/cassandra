@@ -25,7 +25,5 @@ public class MixedModeAvailabilityUpgradedCoordinatorTest extends MixedModeAvail
 {
     @Override
     protected boolean upgradedCoordinator()
-    {
-        return true;
-    }
+    { return true; }
 }
