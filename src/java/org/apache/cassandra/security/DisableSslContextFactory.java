@@ -44,15 +44,11 @@ public class DisableSslContextFactory extends AbstractSslContextFactory
 
     @Override
     public boolean hasKeystore()
-    {
-        return false;
-    }
+    { return false; }
 
     @Override
     public boolean hasOutboundKeystore()
-    {
-        return false;
-    }
+    { return false; }
 
     @Override
     public void initHotReloading() throws SSLException
@@ -61,7 +57,5 @@ public class DisableSslContextFactory extends AbstractSslContextFactory
 
     @Override
     public boolean shouldReload()
-    {
-        return false;
-    }
+    { return false; }
 }
