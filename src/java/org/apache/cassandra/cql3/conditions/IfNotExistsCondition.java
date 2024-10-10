@@ -31,7 +31,5 @@ final class IfNotExistsCondition extends AbstractConditions
 
     @Override
     public boolean isIfNotExists()
-    {
-        return true;
-    }
+    { return true; }
 }
