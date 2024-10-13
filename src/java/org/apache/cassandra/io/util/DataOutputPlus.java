@@ -152,9 +152,7 @@ public interface DataOutputPlus extends DataOutput
      * {@code true}, otherwise {@code false}.
      */
     default boolean hasPosition()
-    {
-        return false;
-    }
+    { return false; }
 
     // The methods below support page-aware layout for writing. These would only be implemented if position() is
     // also supported.
