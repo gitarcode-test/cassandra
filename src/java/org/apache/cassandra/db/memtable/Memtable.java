@@ -100,9 +100,7 @@ public interface Memtable extends Comparable<Memtable>, UnfilteredSource
          * allow the option of turning commit log writing on even if it does not need it.
          */
         default boolean writesShouldSkipCommitLog()
-        {
-            return false;
-        }
+        { return false; }
 
         /**
          * This should be true if the memtable can achieve write durability for crash recovery directly (i.e. using some
