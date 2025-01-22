@@ -16,8 +16,6 @@
  * limitations under the License.
  */
 package org.apache.cassandra.utils;
-
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.TreeSet;
 import java.util.concurrent.ThreadLocalRandom;

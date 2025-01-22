@@ -19,7 +19,6 @@
 package org.apache.cassandra.index.sai.cql.intersection;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
@@ -29,7 +28,6 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import org.junit.Before;
-import org.junit.runners.Parameterized;
 
 import org.apache.cassandra.config.CassandraRelevantProperties;
 import org.apache.cassandra.cql3.UntypedResultSet;

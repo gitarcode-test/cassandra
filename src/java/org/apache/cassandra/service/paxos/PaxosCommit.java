@@ -50,7 +50,6 @@ import static org.apache.cassandra.net.Verb.PAXOS_COMMIT_REQ;
 import static org.apache.cassandra.service.StorageProxy.shouldHint;
 import static org.apache.cassandra.service.StorageProxy.submitHint;
 import static org.apache.cassandra.service.paxos.Commit.*;
-import static org.apache.cassandra.utils.concurrent.ConditionAsConsumer.newConditionAsConsumer;
 
 // Does not support EACH_QUORUM, as no such thing as EACH_SERIAL
 public class PaxosCommit<OnDone extends Consumer<? super PaxosCommit.Status>> extends PaxosRequestCallback<NoPayload>

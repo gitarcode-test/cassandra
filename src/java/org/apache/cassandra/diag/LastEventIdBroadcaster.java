@@ -30,8 +30,6 @@ import javax.management.NotificationFilter;
 import javax.management.NotificationListener;
 
 import org.apache.cassandra.concurrent.ScheduledExecutors;
-import org.apache.cassandra.utils.MBeanWrapper;
-import org.apache.cassandra.utils.progress.jmx.JMXBroadcastExecutor;
 
 import static org.apache.cassandra.utils.Clock.Global.currentTimeMillis;
 
