@@ -20,7 +20,6 @@ package org.apache.cassandra.net;
 import java.nio.ByteBuffer;
 
 import io.netty.buffer.ByteBuf;
-import io.netty.channel.ChannelHandler;
 
 import static org.apache.cassandra.net.FrameEncoderCrc.HEADER_LENGTH;
 import static org.apache.cassandra.net.FrameEncoderCrc.writeHeader;

@@ -22,7 +22,6 @@ import java.util.List;
 
 import org.apache.cassandra.harry.data.ResultSetRow;
 import org.apache.cassandra.harry.ddl.SchemaSpec;
-import org.apache.cassandra.harry.sut.QueryModifyingSut;
 import org.apache.cassandra.harry.sut.SystemUnderTest;
 import org.apache.cassandra.harry.operations.CompiledStatement;
 import org.apache.cassandra.harry.operations.Query;

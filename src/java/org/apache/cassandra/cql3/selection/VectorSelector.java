@@ -24,8 +24,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import com.google.common.base.Preconditions;
-
 import org.apache.cassandra.cql3.terms.Lists;
 import org.apache.cassandra.cql3.QueryOptions;
 import org.apache.cassandra.db.filter.ColumnFilter;
