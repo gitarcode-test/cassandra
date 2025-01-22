@@ -21,9 +21,6 @@ import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.List;
-
-import com.github.benmanes.caffeine.cache.Cache;
-import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
 
 import static org.apache.cassandra.utils.Clock.Global.currentTimeMillis;

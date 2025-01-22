@@ -41,8 +41,6 @@ import org.apache.cassandra.serializers.MarshalException;
 import org.apache.cassandra.service.ClientState;
 import org.apache.cassandra.utils.ByteBufferUtil;
 
-import static java.util.stream.Collectors.toList;
-
 public interface CQL3Type
 {
     static final Logger logger = LoggerFactory.getLogger(CQL3Type.class);

@@ -42,7 +42,6 @@ import org.apache.cassandra.io.util.DataOutputBuffer;
 import org.apache.cassandra.schema.ColumnMetadata;
 import org.apache.cassandra.schema.MockSchema;
 import org.apache.cassandra.schema.TableMetadata;
-import org.apache.cassandra.utils.btree.BTreeSet;
 
 import static org.apache.cassandra.utils.ByteBufferUtil.bytes;
 

@@ -35,7 +35,6 @@ import org.apache.cassandra.harry.gen.Generators;
 import org.apache.cassandra.harry.gen.rng.JdkRandomEntropySource;
 import org.apache.cassandra.harry.sut.TokenPlacementModel;
 import org.apache.cassandra.locator.InetAddressAndPort;
-import org.apache.cassandra.tcm.AtomicLongBackedProcessor;
 import org.apache.cassandra.tcm.ClusterMetadata;
 import org.apache.cassandra.tcm.ClusterMetadataService;
 import org.apache.cassandra.tcm.MetadataKey;
