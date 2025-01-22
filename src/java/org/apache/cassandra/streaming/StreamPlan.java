@@ -23,7 +23,6 @@ import com.google.common.annotations.VisibleForTesting;
 
 import org.apache.cassandra.locator.InetAddressAndPort;
 import org.apache.cassandra.locator.RangesAtEndpoint;
-import org.apache.cassandra.locator.Replica;
 import org.apache.cassandra.utils.TimeUUID;
 
 import static com.google.common.collect.Iterables.all;

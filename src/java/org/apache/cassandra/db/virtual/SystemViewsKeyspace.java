@@ -17,15 +17,6 @@
  */
 package org.apache.cassandra.db.virtual;
 
-import com.google.common.collect.ImmutableList;
-
-import org.apache.cassandra.db.virtual.model.ThreadPoolRow;
-import org.apache.cassandra.db.virtual.walker.ThreadPoolRowWalker;
-import org.apache.cassandra.index.sai.virtual.StorageAttachedIndexTables;
-
-import static org.apache.cassandra.metrics.CassandraMetricsRegistry.Metrics;
-import static org.apache.cassandra.schema.SchemaConstants.VIRTUAL_VIEWS;
-
 public final class SystemViewsKeyspace extends VirtualKeyspace
 {
     public static SystemViewsKeyspace instance = new SystemViewsKeyspace();

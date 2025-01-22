@@ -22,7 +22,6 @@ import java.nio.ByteOrder;
 import java.util.zip.CRC32;
 
 import io.netty.buffer.ByteBuf;
-import io.netty.channel.ChannelHandler;
 import net.jpountz.lz4.LZ4Compressor;
 import net.jpountz.lz4.LZ4Factory;
 import org.apache.cassandra.io.compress.BufferType;
