@@ -19,9 +19,7 @@ package org.apache.cassandra.index.sai.disk;
 
 import java.io.IOException;
 import java.util.Collection;
-import java.util.Objects;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 import javax.annotation.concurrent.NotThreadSafe;
 
 import com.google.common.base.Stopwatch;

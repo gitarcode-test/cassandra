@@ -28,7 +28,6 @@ import java.util.stream.Collectors;
 import com.google.common.annotations.VisibleForTesting;
 
 import org.apache.cassandra.io.util.File;
-import org.apache.cassandra.utils.MBeanWrapper;
 
 public class DisallowedDirectories implements DisallowedDirectoriesMBean
 {

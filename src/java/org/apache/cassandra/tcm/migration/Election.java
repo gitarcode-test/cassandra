@@ -46,7 +46,6 @@ import org.apache.cassandra.tcm.transformations.Register;
 import org.apache.cassandra.net.MessageDelivery;
 import org.apache.cassandra.net.IVerbHandler;
 import org.apache.cassandra.net.Message;
-import org.apache.cassandra.net.MessagingService;
 import org.apache.cassandra.net.Verb;
 import org.apache.cassandra.schema.DistributedMetadataLogKeyspace;
 import org.apache.cassandra.tcm.ClusterMetadata;

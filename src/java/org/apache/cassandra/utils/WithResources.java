@@ -18,8 +18,6 @@
 
 package org.apache.cassandra.utils;
 
-import org.apache.cassandra.concurrent.ExecutorPlus;
-
 import static org.apache.cassandra.utils.Shared.Scope.SIMULATION;
 
 /**

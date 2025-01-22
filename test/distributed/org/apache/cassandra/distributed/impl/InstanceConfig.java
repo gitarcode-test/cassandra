@@ -28,10 +28,8 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.UUID;
 import java.util.function.Function;
-import java.util.stream.Collectors;
 
 import com.vdurmont.semver4j.Semver;
-import org.apache.cassandra.config.CassandraRelevantProperties;
 import org.apache.cassandra.distributed.api.Feature;
 import org.apache.cassandra.distributed.api.IInstanceConfig;
 import org.apache.cassandra.distributed.shared.NetworkTopology;

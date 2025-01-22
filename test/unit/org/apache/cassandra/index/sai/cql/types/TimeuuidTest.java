@@ -19,8 +19,6 @@ package org.apache.cassandra.index.sai.cql.types;
 
 import java.util.Collection;
 
-import org.junit.runners.Parameterized;
-
 public class TimeuuidTest extends IndexingTypeSupport
 {
     @Parameterized.Parameters(name = "dataset={0},wide={1},scenario={2}")

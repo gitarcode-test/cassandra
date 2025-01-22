@@ -17,8 +17,6 @@
  */
 package org.apache.cassandra.serializers;
 
-import java.nio.charset.StandardCharsets;
-
 import org.apache.cassandra.db.marshal.ValueAccessor;
 
 public class AsciiSerializer extends AbstractTextSerializer

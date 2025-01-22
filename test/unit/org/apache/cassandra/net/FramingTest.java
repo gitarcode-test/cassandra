@@ -49,7 +49,6 @@ import org.apache.cassandra.utils.memory.BufferPools;
 import org.apache.cassandra.utils.vint.VIntCoding;
 
 import static java.lang.Math.*;
-import static org.apache.cassandra.net.ShareableBytes.wrap;
 
 // TODO: test corruption
 // TODO: use a different random seed each time
