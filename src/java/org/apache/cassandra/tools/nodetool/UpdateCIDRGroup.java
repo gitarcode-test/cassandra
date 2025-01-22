@@ -22,7 +22,6 @@ import java.util.List;
 
 import io.airlift.airline.Arguments;
 import io.airlift.airline.Command;
-import org.apache.cassandra.auth.AuthKeyspace;
 import org.apache.cassandra.tools.NodeProbe;
 import org.apache.cassandra.tools.NodeTool.NodeToolCmd;
 

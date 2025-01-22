@@ -17,8 +17,6 @@
  */
 package org.apache.cassandra.cache;
 
-import static com.google.common.base.Preconditions.checkState;
-
 import java.util.Iterator;
 
 import com.github.benmanes.caffeine.cache.Cache;
