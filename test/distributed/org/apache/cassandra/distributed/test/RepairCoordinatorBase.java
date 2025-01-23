@@ -26,7 +26,6 @@ import java.util.concurrent.RejectedExecutionException;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
-import org.junit.runners.Parameterized;
 
 import org.apache.cassandra.distributed.Cluster;
 import org.apache.cassandra.distributed.api.Feature;
