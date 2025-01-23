@@ -33,7 +33,6 @@ import org.apache.cassandra.db.DecoratedKey;
 import org.apache.cassandra.dht.Range;
 import org.apache.cassandra.dht.Token;
 import org.apache.cassandra.repair.SharedContext;
-import org.apache.cassandra.schema.Schema;
 import org.apache.cassandra.schema.TableId;
 import org.apache.cassandra.schema.TableMetadata;
 import org.apache.cassandra.service.paxos.AbstractPaxosRepair;
@@ -42,8 +41,6 @@ import org.apache.cassandra.service.paxos.PaxosState;
 import org.apache.cassandra.service.paxos.uncommitted.UncommittedPaxosKey;
 import org.apache.cassandra.utils.CloseableIterator;
 import org.apache.cassandra.utils.concurrent.AsyncFuture;
-
-import static org.apache.cassandra.service.paxos.cleanup.PaxosCleanupSession.TIMEOUT_NANOS;
 
 public class PaxosCleanupLocalCoordinator extends AsyncFuture<PaxosCleanupResponse>
 {

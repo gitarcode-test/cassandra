@@ -19,9 +19,6 @@
 package org.apache.cassandra.cql3.functions;
 
 import java.nio.ByteBuffer;
-
-import org.apache.cassandra.db.marshal.Int32Type;
-import org.apache.cassandra.db.marshal.UTF8Type;
 import org.apache.cassandra.exceptions.InvalidRequestException;
 import org.apache.cassandra.tcm.Transformation;
 import org.apache.cassandra.utils.ByteBufferUtil;

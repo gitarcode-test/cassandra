@@ -20,7 +20,6 @@ package org.apache.cassandra.utils;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
-import java.util.Arrays;
 
 /**
  * The result of the computation of an MD5 digest.

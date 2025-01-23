@@ -28,10 +28,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.cassandra.concurrent.Interruptible;
 import org.apache.cassandra.utils.concurrent.WaitQueue;
-
-import static org.apache.cassandra.concurrent.InfiniteLoopExecutor.SimulatorSafe.SAFE;
 import static org.apache.cassandra.utils.concurrent.WaitQueue.newWaitQueue;
-import static org.apache.cassandra.concurrent.ExecutorFactory.Global.executorFactory;
 
 /**
  * A thread that reclaims memory from a MemtablePool on demand.  The actual reclaiming work is delegated to the

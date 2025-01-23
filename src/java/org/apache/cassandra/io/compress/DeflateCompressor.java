@@ -29,8 +29,6 @@ import java.util.zip.DataFormatException;
 import java.util.zip.Deflater;
 import java.util.zip.Inflater;
 
-import com.google.common.collect.ImmutableSet;
-
 public class DeflateCompressor implements ICompressor
 {
     public static final DeflateCompressor instance = new DeflateCompressor();

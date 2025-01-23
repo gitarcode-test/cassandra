@@ -36,7 +36,6 @@ import org.apache.cassandra.dht.IPartitioner;
 import org.apache.cassandra.dht.Token;
 import org.apache.cassandra.locator.InetAddressAndPort;
 import org.apache.cassandra.locator.SimpleSnitch;
-import org.apache.cassandra.tcm.ClusterMetadata;
 import org.apache.cassandra.utils.OutputHandler;
 
 public class OfflineTokenAllocator

@@ -35,8 +35,6 @@ import org.apache.cassandra.distributed.api.IInvokableInstance;
 import org.apache.cassandra.distributed.impl.RowUtil;
 import org.apache.cassandra.distributed.util.Auth;
 import org.apache.cassandra.distributed.util.SingleHostLoadBalancingPolicy;
-
-import static com.datastax.driver.core.Cluster.Builder;
 import static java.lang.String.format;
 import static org.apache.cassandra.auth.CassandraRoleManager.DEFAULT_SUPERUSER_NAME;
 import static org.apache.cassandra.auth.CassandraRoleManager.DEFAULT_SUPERUSER_PASSWORD;

@@ -39,7 +39,6 @@ import org.apache.cassandra.db.compaction.TimeWindowCompactionStrategy;
 import org.apache.cassandra.locator.InetAddressAndPort;
 import org.apache.cassandra.service.ClientState;
 import org.apache.cassandra.service.disk.usage.DiskUsageBroadcaster;
-import org.apache.cassandra.utils.MBeanWrapper;
 
 import static java.lang.String.format;
 
