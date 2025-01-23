@@ -22,8 +22,6 @@ import java.io.Closeable;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-
-import io.netty.channel.FileRegion;
 import org.apache.cassandra.io.util.DataOutputPlus;
 import org.apache.cassandra.utils.Shared;
 
