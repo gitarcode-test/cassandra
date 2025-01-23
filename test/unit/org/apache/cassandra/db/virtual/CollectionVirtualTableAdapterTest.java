@@ -34,8 +34,6 @@ import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Row;
 import org.apache.cassandra.cql3.CQLTester;
 import org.apache.cassandra.db.virtual.model.CollectionEntry;
-import org.apache.cassandra.db.virtual.model.CollectionEntryTestRow;
-import org.apache.cassandra.db.virtual.model.PartitionEntryTestRow;
 import org.apache.cassandra.db.virtual.walker.CollectionEntryTestRowWalker;
 import org.apache.cassandra.db.virtual.walker.PartitionEntryTestRowWalker;
 

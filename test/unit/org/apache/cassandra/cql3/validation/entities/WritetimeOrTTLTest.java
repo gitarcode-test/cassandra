@@ -20,7 +20,6 @@ package org.apache.cassandra.cql3.validation.entities;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 import org.junit.Test;
 

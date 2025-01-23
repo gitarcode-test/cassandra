@@ -20,8 +20,6 @@ package org.apache.cassandra.index.sai.cql.types.collections.sets;
 import java.util.Collection;
 import java.util.Set;
 
-import org.junit.runners.Parameterized;
-
 import org.apache.cassandra.index.sai.cql.types.DataSet;
 import org.apache.cassandra.index.sai.cql.types.IndexingTypeSupport;
 import org.apache.cassandra.index.sai.cql.types.collections.CollectionDataSet;
