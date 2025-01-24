@@ -23,8 +23,6 @@ import java.util.function.BooleanSupplier;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import org.apache.cassandra.config.DatabaseDescriptor;
-
 public class CIDRPermissionsCache extends AuthCache<RoleResource, CIDRPermissions>
 {
     public static final String CACHE_NAME = "CidrPermissionsCache";

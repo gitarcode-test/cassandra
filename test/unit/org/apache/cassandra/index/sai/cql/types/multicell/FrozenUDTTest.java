@@ -20,8 +20,6 @@ package org.apache.cassandra.index.sai.cql.types.multicell;
 
 import java.util.Collection;
 
-import org.junit.runners.Parameterized;
-
 import org.apache.cassandra.index.sai.cql.types.DataSet;
 import org.apache.cassandra.index.sai.cql.types.IndexingTypeSupport;
 

@@ -50,7 +50,6 @@ import org.apache.cassandra.repair.messages.FailSession;
 import org.apache.cassandra.repair.messages.FinalizeCommit;
 import org.apache.cassandra.repair.messages.FinalizePropose;
 import org.apache.cassandra.repair.messages.PrepareConsistentRequest;
-import org.apache.cassandra.service.ActiveRepairService;
 import org.apache.cassandra.utils.concurrent.ImmediateFuture;
 
 import static org.apache.cassandra.repair.messages.RepairMessage.notDone;
