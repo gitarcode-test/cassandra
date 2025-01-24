@@ -40,7 +40,6 @@ import org.slf4j.LoggerFactory;
 
 import com.github.benmanes.caffeine.cache.Caffeine;
 import com.github.benmanes.caffeine.cache.LoadingCache;
-import com.github.benmanes.caffeine.cache.Policy;
 import com.github.benmanes.caffeine.cache.RemovalCause;
 import org.apache.cassandra.cache.UnweightedCacheSize;
 import com.github.benmanes.caffeine.cache.stats.CacheStats;

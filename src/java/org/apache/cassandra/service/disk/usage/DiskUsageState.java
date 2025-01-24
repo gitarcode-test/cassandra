@@ -18,8 +18,6 @@
 
 package org.apache.cassandra.service.disk.usage;
 
-import org.apache.cassandra.db.guardrails.GuardrailsConfig;
-
 public enum DiskUsageState
 {
     /** Either disk usage guardrail is not enabled or gossip state is not ready. */
