@@ -23,8 +23,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import org.apache.cassandra.db.virtual.walker.RowWalker;
-
 /**
  * Annotation to mark a walk order for a {@link RowWalker}. Annotation is used on a method that returns a value and
  * represents a column value for a row. The columns order is defined by the column type and the column name

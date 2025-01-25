@@ -24,7 +24,6 @@ import java.util.Collection;
 import java.util.List;
 
 import org.junit.Before;
-import org.junit.runners.Parameterized;
 
 /**
  * {@link ColumnMaskQueryTester} for user-defined functions.
