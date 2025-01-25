@@ -21,8 +21,6 @@ package org.apache.cassandra.cql3.functions.masking;
 import java.util.Arrays;
 import java.util.Collection;
 
-import org.junit.runners.Parameterized;
-
 import org.apache.cassandra.db.marshal.Int32Type;
 import org.apache.cassandra.db.marshal.UTF8Type;
 

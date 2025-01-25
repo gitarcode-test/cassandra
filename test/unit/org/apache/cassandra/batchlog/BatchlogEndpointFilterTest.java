@@ -19,7 +19,6 @@ package org.apache.cassandra.batchlog;
 
 import java.net.UnknownHostException;
 import java.util.Collection;
-import java.util.Collections;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
