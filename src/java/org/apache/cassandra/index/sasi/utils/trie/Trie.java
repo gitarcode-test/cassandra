@@ -19,8 +19,6 @@ package org.apache.cassandra.index.sasi.utils.trie;
 import java.util.Map;
 import java.util.SortedMap;
 
-import org.apache.cassandra.index.sasi.utils.trie.Cursor.Decision;
-
 /**
  * This class is taken from https://github.com/rkapsi/patricia-trie (v0.6), and slightly modified
  * to correspond to Cassandra code style, as the only Patricia Trie implementation,

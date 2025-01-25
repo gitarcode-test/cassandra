@@ -17,8 +17,6 @@
  */
 package org.apache.cassandra.metrics;
 
-import java.util.concurrent.ThreadPoolExecutor;
-
 import com.codahale.metrics.Counter;
 import com.codahale.metrics.Gauge;
 import org.apache.cassandra.concurrent.ResizableThreadPool;
