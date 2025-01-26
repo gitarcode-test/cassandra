@@ -25,9 +25,6 @@ import java.util.*;
 
 import com.google.common.reflect.TypeToken;
 
-import org.apache.cassandra.cql3.functions.types.exceptions.CodecNotFoundException;
-import org.apache.cassandra.cql3.functions.types.exceptions.InvalidTypeException;
-
 /**
  * Collection of (typed) CQL values that can be set by index (starting at zero).
  */
