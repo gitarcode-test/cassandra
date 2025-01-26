@@ -18,8 +18,6 @@
 package org.apache.cassandra.net;
 
 import java.util.concurrent.TimeUnit;
-
-import org.apache.cassandra.concurrent.Stage;
 import org.apache.cassandra.net.Message.Header;
 
 /**

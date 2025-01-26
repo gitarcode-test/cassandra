@@ -23,7 +23,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import org.apache.cassandra.index.sai.SAITester;
-import org.apache.cassandra.index.sai.cql.types.InetTest;
 
 /**
  * This is testing that we can query ipv4 addresses using ipv6 equivalent addresses.
