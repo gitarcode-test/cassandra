@@ -20,7 +20,6 @@ package org.apache.cassandra.io.sstable;
 import org.apache.cassandra.db.DecoratedKey;
 import org.apache.cassandra.db.rows.Row;
 import org.apache.cassandra.db.rows.Unfiltered;
-import org.apache.cassandra.io.sstable.format.SSTableReader;
 
 /**
  * Observer for events in the lifecycle of writing out an sstable.
