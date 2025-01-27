@@ -19,7 +19,6 @@
 package org.apache.cassandra.utils.logging;
 
 import java.lang.management.ManagementFactory;
-import java.security.AccessControlException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
