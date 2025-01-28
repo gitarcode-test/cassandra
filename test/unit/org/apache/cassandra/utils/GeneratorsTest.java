@@ -17,8 +17,6 @@
  */
 
 package org.apache.cassandra.utils;
-
-import com.google.common.net.InternetDomainName;
 import org.junit.Test;
 
 import org.assertj.core.api.Assertions;

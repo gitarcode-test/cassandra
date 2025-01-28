@@ -23,7 +23,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import org.apache.cassandra.auth.AuthTestUtils;
-import org.apache.cassandra.auth.IAuthenticator;
 import org.apache.cassandra.transport.messages.AuthenticateMessage;
 
 import static org.junit.Assert.fail;

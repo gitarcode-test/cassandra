@@ -17,15 +17,11 @@
  */
 
 package org.apache.cassandra.index.sai;
-
-import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 import javax.annotation.concurrent.NotThreadSafe;
 
 import org.apache.cassandra.db.ReadCommand;
 import org.apache.cassandra.exceptions.QueryCancelledException;
-import org.apache.cassandra.index.sai.plan.FilterTree;
-import org.apache.cassandra.index.sai.plan.QueryController;
 import org.apache.cassandra.utils.Clock;
 
 import static org.apache.cassandra.config.CassandraRelevantProperties.SAI_TEST_DISABLE_TIMEOUT;
