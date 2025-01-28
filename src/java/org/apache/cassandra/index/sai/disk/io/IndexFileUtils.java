@@ -21,7 +21,6 @@ package org.apache.cassandra.index.sai.disk.io;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.function.Supplier;
-import java.util.zip.CRC32C;
 import java.util.zip.Checksum;
 
 import com.google.common.annotations.VisibleForTesting;
