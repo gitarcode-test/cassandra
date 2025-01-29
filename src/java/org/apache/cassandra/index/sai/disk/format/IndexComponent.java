@@ -19,9 +19,6 @@
 package org.apache.cassandra.index.sai.disk.format;
 
 import java.util.regex.Pattern;
-
-import org.apache.cassandra.index.sai.disk.v1.postings.PostingsWriter;
-import org.apache.cassandra.index.sai.disk.v1.trie.TrieTermsDictionaryWriter;
 import org.apache.cassandra.io.sstable.Component;
 
 import static org.apache.cassandra.index.sai.disk.format.Version.SAI_DESCRIPTOR;

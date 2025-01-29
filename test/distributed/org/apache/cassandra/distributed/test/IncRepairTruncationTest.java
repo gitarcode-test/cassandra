@@ -40,7 +40,6 @@ import org.apache.cassandra.net.Verb;
 
 import static org.apache.cassandra.distributed.api.Feature.GOSSIP;
 import static org.apache.cassandra.distributed.api.Feature.NETWORK;
-import static org.apache.cassandra.distributed.api.IMessageFilters.Matcher;
 import static org.apache.cassandra.distributed.test.PreviewRepairTest.insert;
 import static org.apache.cassandra.utils.concurrent.Condition.newOneTimeCondition;
 
