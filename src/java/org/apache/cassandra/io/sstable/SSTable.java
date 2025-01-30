@@ -43,7 +43,6 @@ import org.apache.cassandra.db.lifecycle.Tracker;
 import org.apache.cassandra.dht.AbstractBounds;
 import org.apache.cassandra.dht.IPartitioner;
 import org.apache.cassandra.dht.Token;
-import org.apache.cassandra.io.sstable.format.SSTableFormat;
 import org.apache.cassandra.io.sstable.format.SSTableFormat.Components;
 import org.apache.cassandra.io.sstable.format.TOCComponent;
 import org.apache.cassandra.io.util.File;
@@ -54,7 +53,6 @@ import org.apache.cassandra.schema.TableMetadataRef;
 import org.apache.cassandra.utils.Pair;
 import org.apache.cassandra.utils.TimeUUID;
 import org.apache.cassandra.utils.concurrent.OpOrder;
-import org.apache.cassandra.utils.concurrent.SharedCloseable;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 import static org.apache.cassandra.service.ActiveRepairService.NO_PENDING_REPAIR;
