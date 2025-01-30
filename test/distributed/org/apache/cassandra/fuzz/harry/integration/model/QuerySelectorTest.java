@@ -35,7 +35,6 @@ import org.apache.cassandra.harry.model.SelectHelper;
 import org.apache.cassandra.harry.sut.SystemUnderTest;
 import org.apache.cassandra.harry.operations.CompiledStatement;
 import org.apache.cassandra.harry.visitors.MutatingVisitor;
-import org.apache.cassandra.harry.visitors.MutatingRowVisitor;
 import org.apache.cassandra.harry.operations.Query;
 import org.apache.cassandra.harry.operations.QueryGenerator;
 import org.apache.cassandra.harry.visitors.Visitor;
