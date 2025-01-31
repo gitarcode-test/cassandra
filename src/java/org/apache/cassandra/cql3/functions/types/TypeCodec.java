@@ -19,7 +19,6 @@ package org.apache.cassandra.cql3.functions.types;
 
 import java.io.DataInput;
 import java.io.IOException;
-import java.lang.reflect.Type;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.net.InetAddress;

@@ -16,8 +16,6 @@
  * limitations under the License.
  */
 package org.apache.cassandra.notifications;
-
-import org.apache.cassandra.db.ColumnFamilyStore;
 import org.apache.cassandra.io.sstable.format.SSTableReader;
 
 /**
