@@ -19,8 +19,6 @@ package org.apache.cassandra.db;
 
 import java.util.Objects;
 
-import org.apache.cassandra.db.rows.RangeTombstoneMarker;
-
 /**
  * A range tombstone is a tombstone that covers a slice/range of rows.
  * <p>
