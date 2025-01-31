@@ -51,7 +51,6 @@ import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 import com.fasterxml.jackson.databind.node.TextNode;
 import com.fasterxml.jackson.databind.ser.std.StdSerializer;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import org.apache.cassandra.distributed.upgrade.ConfigCompatibilityTestGenerate;
 import org.yaml.snakeyaml.introspector.Property;
 
 /**
