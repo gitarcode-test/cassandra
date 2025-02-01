@@ -45,7 +45,6 @@ import org.apache.cassandra.streaming.StreamDeserializingTask;
 import org.apache.cassandra.streaming.StreamingChannel;
 import org.apache.cassandra.streaming.StreamingDataOutputPlus;
 import org.apache.cassandra.streaming.StreamSession;
-import org.apache.cassandra.streaming.messages.IncomingStreamMessage;
 import org.apache.cassandra.streaming.messages.KeepAliveMessage;
 import org.apache.cassandra.streaming.messages.OutgoingStreamMessage;
 import org.apache.cassandra.streaming.messages.StreamMessage;
