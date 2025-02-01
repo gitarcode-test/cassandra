@@ -19,8 +19,6 @@
 package org.apache.cassandra.index.sai.disk.v1.postings;
 
 import java.io.IOException;
-
-import org.apache.cassandra.index.sai.postings.PostingList;
 import org.apache.cassandra.index.sai.metrics.QueryEventListener;
 import org.apache.lucene.store.IndexInput;
 
