@@ -23,7 +23,6 @@ import java.util.Map;
 import java.util.function.UnaryOperator;
 
 import org.apache.cassandra.io.sstable.Descriptor;
-import org.apache.cassandra.io.sstable.format.SSTableReader;
 import org.apache.cassandra.io.sstable.format.Version;
 import org.apache.cassandra.io.util.DataOutputPlus;
 import org.apache.cassandra.utils.TimeUUID;

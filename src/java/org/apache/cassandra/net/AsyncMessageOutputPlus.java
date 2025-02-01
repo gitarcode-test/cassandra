@@ -24,7 +24,6 @@ import java.nio.channels.ClosedChannelException;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelPromise;
 import io.netty.channel.WriteBufferWaterMark;
-import org.apache.cassandra.io.util.DataOutputStreamPlus;
 
 /**
  * A {@link DataOutputStreamPlus} that writes ASYNCHRONOUSLY to a Netty Channel.
