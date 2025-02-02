@@ -31,7 +31,6 @@ import org.junit.Test;
 import org.apache.cassandra.db.marshal.AbstractType;
 import org.apache.cassandra.db.marshal.Int32Type;
 import org.apache.cassandra.db.marshal.ReversedType;
-import org.apache.cassandra.harry.util.ByteUtils;
 import org.apache.cassandra.schema.ColumnMetadata;
 
 import static java.util.Arrays.asList;

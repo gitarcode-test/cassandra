@@ -20,8 +20,6 @@ package org.apache.cassandra.distributed.test;
 import java.util.UUID;
 
 import org.junit.Test;
-
-import org.apache.cassandra.auth.CassandraRoleManager;
 import org.apache.cassandra.distributed.Cluster;
 import org.apache.cassandra.distributed.api.IInvokableInstance;
 import org.apache.cassandra.distributed.api.IIsolatedExecutor;

@@ -42,7 +42,6 @@ import org.apache.lucene.util.ArrayUtil;
 import org.apache.lucene.util.BytesRef;
 import org.apache.lucene.util.IntroSorter;
 import org.apache.lucene.util.Sorter;
-import org.apache.lucene.util.bkd.BKDWriter;
 
 import static org.apache.cassandra.index.sai.postings.PostingList.END_OF_STREAM;
 

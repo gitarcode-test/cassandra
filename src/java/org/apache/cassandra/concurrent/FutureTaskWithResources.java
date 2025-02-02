@@ -22,7 +22,6 @@ import java.util.concurrent.Callable;
 
 import org.apache.cassandra.utils.Closeable;
 import org.apache.cassandra.utils.WithResources;
-import org.apache.cassandra.utils.concurrent.AsyncFuture;
 
 /**
  * A FutureTask that utilises Cassandra's {@link AsyncFuture}, making it compatible with {@link ExecutorPlus}.
