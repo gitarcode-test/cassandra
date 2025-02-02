@@ -19,7 +19,6 @@
 package org.apache.cassandra.index.sai.cql.intersection;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
