@@ -17,8 +17,6 @@
  */
 
 package org.apache.cassandra.index.sai;
-
-import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 import javax.annotation.concurrent.NotThreadSafe;
 
