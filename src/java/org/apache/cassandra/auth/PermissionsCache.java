@@ -18,8 +18,6 @@
 package org.apache.cassandra.auth;
 
 import java.util.Set;
-
-import org.apache.cassandra.config.DatabaseDescriptor;
 import org.apache.cassandra.utils.Pair;
 
 public class PermissionsCache extends AuthCache<Pair<AuthenticatedUser, IResource>, Set<Permission>>

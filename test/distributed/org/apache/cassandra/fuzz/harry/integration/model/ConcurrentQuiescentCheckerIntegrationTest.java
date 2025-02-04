@@ -26,9 +26,7 @@ import org.junit.Test;
 import org.apache.cassandra.harry.core.Configuration;
 import org.apache.cassandra.harry.ddl.SchemaGenerators;
 import org.apache.cassandra.harry.ddl.SchemaSpec;
-import org.apache.cassandra.harry.tracker.LockingDataTracker;
 import org.apache.cassandra.harry.runner.Runner;
-import org.apache.cassandra.harry.visitors.MutatingVisitor;
 import org.apache.cassandra.harry.visitors.QueryLogger;
 import org.apache.cassandra.harry.visitors.RandomPartitionValidator;
 

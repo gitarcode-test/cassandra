@@ -24,7 +24,6 @@ import java.io.InputStream;
 
 import org.apache.cassandra.utils.Shared;
 import org.apache.cassandra.utils.vint.VIntCoding;
-import org.apache.cassandra.utils.vint.VIntCoding.VIntOutOfRangeException;
 
 import static org.apache.cassandra.utils.Shared.Scope.SIMULATION;
 

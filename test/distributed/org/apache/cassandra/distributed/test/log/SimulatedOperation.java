@@ -50,9 +50,6 @@ import org.apache.cassandra.tcm.transformations.PrepareLeave;
 import org.apache.cassandra.tcm.transformations.PrepareMove;
 import org.apache.cassandra.tcm.transformations.PrepareReplace;
 import org.apache.cassandra.tcm.transformations.UnsafeJoin;
-
-import static org.apache.cassandra.dht.Murmur3Partitioner.LongToken;
-import static org.apache.cassandra.distributed.test.log.CMSTestBase.CMSSut;
 import static org.apache.cassandra.harry.sut.TokenPlacementModel.*;
 
 public abstract class SimulatedOperation
