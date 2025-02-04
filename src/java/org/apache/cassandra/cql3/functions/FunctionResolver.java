@@ -20,7 +20,6 @@ package org.apache.cassandra.cql3.functions;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 import javax.annotation.Nullable;
