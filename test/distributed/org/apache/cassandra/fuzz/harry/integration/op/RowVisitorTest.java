@@ -34,7 +34,6 @@ import org.apache.cassandra.harry.clock.OffsetClock;
 import org.apache.cassandra.harry.sut.SystemUnderTest;
 import org.apache.cassandra.harry.tracker.DataTracker;
 import org.apache.cassandra.harry.visitors.GeneratingVisitor;
-import org.apache.cassandra.harry.visitors.MutatingRowVisitor;
 import org.apache.cassandra.harry.visitors.MutatingVisitor;
 import org.apache.cassandra.cql3.CQLTester;
 

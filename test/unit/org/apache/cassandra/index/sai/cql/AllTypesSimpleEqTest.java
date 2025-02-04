@@ -30,7 +30,6 @@ import org.junit.runners.Parameterized;
 
 import accord.utils.Gen;
 import accord.utils.Gens;
-import org.apache.cassandra.cql3.CQL3Type;
 import org.apache.cassandra.db.marshal.AbstractType;
 import org.apache.cassandra.db.marshal.DecimalType;
 import org.apache.cassandra.index.sai.StorageAttachedIndex;
