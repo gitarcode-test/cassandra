@@ -17,8 +17,6 @@
  */
 
 package org.apache.cassandra.io.sstable;
-
-import java.util.Objects;
 import java.util.function.Function;
 
 import com.google.common.collect.Iterables;
