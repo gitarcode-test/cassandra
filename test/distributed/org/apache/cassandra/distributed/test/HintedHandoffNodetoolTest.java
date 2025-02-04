@@ -28,8 +28,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-
-import org.apache.cassandra.config.DatabaseDescriptor;
 import org.apache.cassandra.distributed.Cluster;
 import org.apache.cassandra.hints.HintsService;
 import org.apache.cassandra.service.StorageProxy;

@@ -27,7 +27,6 @@ import org.junit.Test;
 
 import org.apache.cassandra.distributed.Cluster;
 import org.apache.cassandra.distributed.api.IInstanceConfig;
-import org.apache.cassandra.distributed.impl.UnsafeGossipHelper;
 
 import static org.apache.cassandra.distributed.api.ConsistencyLevel.ANY;
 import static org.apache.cassandra.distributed.api.ConsistencyLevel.QUORUM;

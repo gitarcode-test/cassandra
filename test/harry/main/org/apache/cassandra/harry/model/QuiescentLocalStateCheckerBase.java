@@ -36,7 +36,6 @@ import org.apache.cassandra.harry.operations.Query;
 import org.apache.cassandra.harry.tracker.DataTracker;
 
 import static org.apache.cassandra.harry.model.SelectHelper.resultSetToRow;
-import static org.apache.cassandra.harry.sut.TokenPlacementModel.Node;
 
 public abstract class QuiescentLocalStateCheckerBase extends QuiescentChecker
 {

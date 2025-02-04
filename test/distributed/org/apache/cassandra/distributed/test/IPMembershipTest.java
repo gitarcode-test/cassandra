@@ -33,7 +33,6 @@ import org.apache.cassandra.distributed.api.Feature;
 import org.apache.cassandra.distributed.api.IInvokableInstance;
 import org.apache.cassandra.distributed.impl.InstanceConfig;
 import org.apache.cassandra.distributed.shared.ClusterUtils;
-import org.apache.cassandra.io.util.FileUtils;
 import org.apache.cassandra.tools.ToolRunner;
 import org.assertj.core.api.Assertions;
 

@@ -38,8 +38,6 @@ import static org.apache.cassandra.cql3.CQLTester.assertRowsContains;
 import static org.apache.cassandra.cql3.CQLTester.row;
 import static org.apache.cassandra.cql3.statements.BatchStatement.metrics;
 import static org.apache.cassandra.metrics.CassandraMetricsRegistry.METRIC_SCOPE_UNDEFINED;
-import static org.apache.cassandra.metrics.DecayingEstimatedHistogramReservoir.EstimatedHistogramReservoirSnapshot;
-import static org.apache.cassandra.metrics.DecayingEstimatedHistogramReservoir.Range;
 import static org.junit.Assert.assertEquals;
 import static org.quicktheories.QuickTheory.qt;
 import static org.quicktheories.generators.Generate.intArrays;

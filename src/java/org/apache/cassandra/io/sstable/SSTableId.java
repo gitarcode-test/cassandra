@@ -22,8 +22,6 @@ import java.nio.ByteBuffer;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
 
-import org.apache.cassandra.io.util.File;
-
 /**
  * Represents a unique identifier in the sstable descriptor filename.
  * This ensures each sstable file uniqueness for the certain table on a single node. However, new implementations

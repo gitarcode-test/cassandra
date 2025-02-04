@@ -25,7 +25,6 @@ import com.google.common.annotations.VisibleForTesting;
 
 import io.netty.util.concurrent.FastThreadLocalThread;
 import org.apache.cassandra.config.CassandraRelevantProperties;
-import org.apache.cassandra.utils.JVMStabilityInspector;
 
 /**
  * This class is an implementation of the <i>ThreadFactory</i> interface. This

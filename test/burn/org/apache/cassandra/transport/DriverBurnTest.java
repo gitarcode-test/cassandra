@@ -41,7 +41,6 @@ import org.apache.cassandra.transport.messages.ResultMessage;
 import org.apache.cassandra.utils.AssertUtil;
 
 import static org.apache.cassandra.config.EncryptionOptions.TlsEncryptionPolicy.UNENCRYPTED;
-import static org.apache.cassandra.transport.BurnTestUtil.SizeCaps;
 import static org.apache.cassandra.transport.BurnTestUtil.generateQueryMessage;
 import static org.apache.cassandra.transport.BurnTestUtil.generateQueryStatement;
 import static org.apache.cassandra.transport.BurnTestUtil.generateRows;

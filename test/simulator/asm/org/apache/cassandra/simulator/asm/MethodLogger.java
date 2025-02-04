@@ -21,7 +21,6 @@ package org.apache.cassandra.simulator.asm;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
 import java.util.Set;

@@ -29,7 +29,6 @@ import com.datastax.driver.core.ResultSet;
 import org.antlr.runtime.RecognitionException;
 import org.apache.cassandra.cql3.CQLFragmentParser;
 import org.apache.cassandra.cql3.ColumnIdentifier;
-import org.apache.cassandra.cql3.CqlParser;
 import org.apache.cassandra.cql3.conditions.ColumnCondition;
 import org.apache.cassandra.cql3.statements.ModificationStatement;
 import org.apache.cassandra.db.ConsistencyLevel;

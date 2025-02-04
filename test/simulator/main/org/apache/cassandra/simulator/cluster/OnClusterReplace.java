@@ -29,7 +29,6 @@ import org.apache.cassandra.dht.Range;
 import org.apache.cassandra.dht.Token;
 import org.apache.cassandra.distributed.Cluster;
 import org.apache.cassandra.distributed.api.IInvokableInstance;
-import org.apache.cassandra.locator.Replica;
 import org.apache.cassandra.schema.KeyspaceMetadata;
 import org.apache.cassandra.simulator.Action;
 import org.apache.cassandra.simulator.ActionList;

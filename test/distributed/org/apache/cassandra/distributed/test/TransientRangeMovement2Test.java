@@ -39,7 +39,6 @@ import static org.apache.cassandra.distributed.shared.ClusterUtils.pauseBeforeEn
 import static org.apache.cassandra.distributed.shared.ClusterUtils.unpauseCommits;
 import static org.apache.cassandra.distributed.shared.ClusterUtils.unpauseEnactment;
 import static org.apache.cassandra.distributed.shared.ClusterUtils.waitForCMSToQuiesce;
-import static org.apache.cassandra.distributed.test.TransientRangeMovementTest.OPPTokens;
 import static org.apache.cassandra.distributed.test.TransientRangeMovementTest.assertAllContained;
 import static org.apache.cassandra.distributed.test.TransientRangeMovementTest.localStrs;
 import static org.apache.cassandra.distributed.test.TransientRangeMovementTest.populate;

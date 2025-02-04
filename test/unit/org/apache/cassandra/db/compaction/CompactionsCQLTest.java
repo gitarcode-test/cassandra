@@ -19,7 +19,6 @@ package org.apache.cassandra.db.compaction;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
-import java.nio.file.FileStore;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;

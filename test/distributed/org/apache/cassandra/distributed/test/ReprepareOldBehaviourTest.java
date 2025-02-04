@@ -22,7 +22,6 @@ import org.junit.Test;
 
 import com.datastax.driver.core.PreparedStatement;
 import com.datastax.driver.core.Session;
-import org.apache.cassandra.cql3.QueryProcessor;
 import org.apache.cassandra.distributed.api.ICluster;
 import org.apache.cassandra.distributed.api.IInvokableInstance;
 

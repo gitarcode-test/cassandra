@@ -30,7 +30,6 @@ import org.junit.runners.Parameterized;
 import org.apache.cassandra.exceptions.ConfigurationException;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.runners.Parameterized.Parameters;
 
 import static org.apache.cassandra.service.reads.HybridSpeculativeRetryPolicy.Function;
 
