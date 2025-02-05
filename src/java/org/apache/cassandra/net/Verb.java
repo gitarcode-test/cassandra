@@ -96,7 +96,6 @@ import org.apache.cassandra.tcm.FetchCMSLog;
 import org.apache.cassandra.tcm.FetchPeerLog;
 import org.apache.cassandra.tcm.migration.Election;
 import org.apache.cassandra.tcm.sequences.DataMovements;
-import org.apache.cassandra.tcm.serialization.MessageSerializers;
 import org.apache.cassandra.utils.BooleanSerializer;
 import org.apache.cassandra.service.EchoVerbHandler;
 import org.apache.cassandra.service.SnapshotVerbHandler;

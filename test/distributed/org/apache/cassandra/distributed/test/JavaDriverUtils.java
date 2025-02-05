@@ -27,7 +27,6 @@ import com.datastax.driver.core.ProtocolVersion;
 import org.apache.cassandra.distributed.api.Feature;
 import org.apache.cassandra.distributed.api.ICluster;
 import org.apache.cassandra.distributed.api.IInstance;
-import org.apache.cassandra.distributed.shared.ClusterUtils;
 
 public final class JavaDriverUtils
 {

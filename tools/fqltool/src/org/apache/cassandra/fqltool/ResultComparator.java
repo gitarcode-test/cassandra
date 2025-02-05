@@ -20,7 +20,6 @@ package org.apache.cassandra.fqltool;
 
 
 import java.util.List;
-import java.util.Objects;
 import java.util.UUID;
 
 import org.slf4j.Logger;

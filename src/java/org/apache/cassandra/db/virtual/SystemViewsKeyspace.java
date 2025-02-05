@@ -18,8 +18,6 @@
 package org.apache.cassandra.db.virtual;
 
 import com.google.common.collect.ImmutableList;
-
-import org.apache.cassandra.db.virtual.model.ThreadPoolRow;
 import org.apache.cassandra.db.virtual.walker.ThreadPoolRowWalker;
 import org.apache.cassandra.index.sai.virtual.StorageAttachedIndexTables;
 
