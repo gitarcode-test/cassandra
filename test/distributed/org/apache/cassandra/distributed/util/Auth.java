@@ -17,8 +17,6 @@
  */
 
 package org.apache.cassandra.distributed.util;
-
-import org.apache.cassandra.auth.CassandraRoleManager;
 import org.apache.cassandra.distributed.api.IInvokableInstance;
 
 import static java.util.concurrent.TimeUnit.SECONDS;

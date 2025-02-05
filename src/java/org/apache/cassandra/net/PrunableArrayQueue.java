@@ -17,8 +17,6 @@
  */
 package org.apache.cassandra.net;
 
-import java.util.function.Predicate;
-
 import org.apache.cassandra.utils.Throwables;
 
 /**

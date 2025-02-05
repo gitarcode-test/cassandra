@@ -29,8 +29,6 @@ import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
 import com.google.common.annotations.VisibleForTesting;
-
-import io.netty.util.concurrent.FastThreadLocal;
 import org.apache.cassandra.concurrent.ExecutorBuilder;
 import org.apache.cassandra.concurrent.ExecutorBuilderFactory;
 import org.apache.cassandra.concurrent.ExecutorFactory;
@@ -54,9 +52,6 @@ import org.apache.cassandra.distributed.api.IIsolatedExecutor.SerializableQuadFu
 import org.apache.cassandra.distributed.api.IIsolatedExecutor.SerializableRunnable;
 import org.apache.cassandra.distributed.api.IIsolatedExecutor.SerializableSupplier;
 import org.apache.cassandra.distributed.impl.IsolatedExecutor;
-import org.apache.cassandra.simulator.systems.InterceptibleThreadFactory.ConcreteInterceptibleThreadFactory;
-import org.apache.cassandra.simulator.systems.InterceptibleThreadFactory.PlainThreadFactory;
-import org.apache.cassandra.simulator.systems.InterceptingExecutor.DiscardingSequentialExecutor;
 import org.apache.cassandra.simulator.systems.InterceptingExecutor.InterceptingTaskFactory;
 import org.apache.cassandra.simulator.systems.InterceptingExecutor.InterceptingLocalAwareSequentialExecutor;
 import org.apache.cassandra.simulator.systems.InterceptingExecutor.InterceptingPooledExecutor;

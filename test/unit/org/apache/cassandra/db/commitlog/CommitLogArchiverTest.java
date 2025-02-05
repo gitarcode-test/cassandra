@@ -35,7 +35,6 @@ import org.apache.cassandra.db.ColumnFamilyStore;
 import org.apache.cassandra.db.Keyspace;
 import org.apache.cassandra.db.RowUpdateBuilder;
 import org.apache.cassandra.io.util.File;
-import org.apache.cassandra.io.util.PathUtils;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 

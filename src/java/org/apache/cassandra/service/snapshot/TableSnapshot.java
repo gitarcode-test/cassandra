@@ -34,7 +34,6 @@ import org.slf4j.LoggerFactory;
 
 import org.apache.cassandra.db.Directories;
 import org.apache.cassandra.io.util.File;
-import org.apache.cassandra.io.util.FileUtils;
 import org.apache.cassandra.utils.DirectorySizeCalculator;
 
 public class TableSnapshot

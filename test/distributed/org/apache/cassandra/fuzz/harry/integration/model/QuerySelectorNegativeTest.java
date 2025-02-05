@@ -33,21 +33,14 @@ import org.junit.runners.Parameterized;
 import org.apache.cassandra.harry.core.Configuration;
 import org.apache.cassandra.harry.core.Run;
 import org.apache.cassandra.harry.corruptor.AddExtraRowCorruptor;
-import org.apache.cassandra.harry.corruptor.ChangeValueCorruptor;
-import org.apache.cassandra.harry.corruptor.HideRowCorruptor;
-import org.apache.cassandra.harry.corruptor.HideValueCorruptor;
 import org.apache.cassandra.harry.corruptor.QueryResponseCorruptor;
-import org.apache.cassandra.harry.corruptor.ShowValueCorruptor;
 import org.apache.cassandra.harry.ddl.SchemaGenerators;
 import org.apache.cassandra.harry.model.Model;
 import org.apache.cassandra.harry.model.QuiescentChecker;
 import org.apache.cassandra.harry.visitors.MutatingVisitor;
-import org.apache.cassandra.harry.visitors.MutatingRowVisitor;
 import org.apache.cassandra.harry.operations.Query;
 import org.apache.cassandra.harry.operations.QueryGenerator;
 import org.apache.cassandra.harry.visitors.Visitor;
-
-import static org.apache.cassandra.harry.corruptor.QueryResponseCorruptor.SimpleQueryResponseCorruptor;
 
 @RunWith(Parameterized.class)
 public class QuerySelectorNegativeTest extends IntegrationTestBase
