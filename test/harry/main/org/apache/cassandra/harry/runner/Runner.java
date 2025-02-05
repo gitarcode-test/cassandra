@@ -39,7 +39,6 @@ import org.slf4j.LoggerFactory;
 
 import org.apache.cassandra.concurrent.ExecutorFactory;
 import org.apache.cassandra.concurrent.Interruptible;
-import org.apache.cassandra.concurrent.Shutdownable;
 import org.apache.cassandra.harry.core.Configuration;
 import org.apache.cassandra.harry.core.Run;
 import org.apache.cassandra.harry.sut.SystemUnderTest;

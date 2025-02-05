@@ -41,7 +41,6 @@ import org.apache.cassandra.index.sai.disk.SSTableIndex;
 import org.apache.cassandra.index.sai.disk.format.IndexComponent;
 import org.apache.cassandra.index.sai.disk.format.IndexDescriptor;
 import org.apache.cassandra.index.sai.disk.format.OnDiskFormat;
-import org.apache.cassandra.index.sai.disk.v1.segment.SegmentBuilder;
 import org.apache.cassandra.index.sai.metrics.AbstractMetrics;
 import org.apache.cassandra.index.sai.utils.IndexIdentifier;
 import org.apache.cassandra.index.sai.utils.IndexTermType;

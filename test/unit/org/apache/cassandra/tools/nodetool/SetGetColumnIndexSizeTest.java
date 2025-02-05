@@ -23,8 +23,6 @@ import org.junit.Test;
 
 import org.apache.cassandra.cql3.CQLTester;
 import org.apache.cassandra.service.StorageService;
-
-import static org.apache.cassandra.tools.ToolRunner.ToolResult;
 import static org.apache.cassandra.tools.ToolRunner.invokeNodetool;
 import static org.assertj.core.api.Assertions.assertThat;
 

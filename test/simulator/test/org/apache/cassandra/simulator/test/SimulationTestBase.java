@@ -48,7 +48,6 @@ import org.apache.cassandra.simulator.systems.Failures;
 import org.apache.cassandra.simulator.systems.InterceptedWait;
 import org.apache.cassandra.simulator.systems.InterceptibleThread;
 import org.apache.cassandra.simulator.systems.InterceptingExecutorFactory;
-import org.apache.cassandra.simulator.systems.InterceptingGlobalMethods;
 import org.apache.cassandra.simulator.systems.InterceptorOfGlobalMethods;
 import org.apache.cassandra.simulator.systems.SimulatedExecution;
 import org.apache.cassandra.simulator.systems.SimulatedQuery;

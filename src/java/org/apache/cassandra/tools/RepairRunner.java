@@ -32,7 +32,6 @@ import org.apache.cassandra.utils.progress.jmx.JMXNotificationProgressListener;
 
 import static org.apache.cassandra.utils.Clock.Global.currentTimeMillis;
 import static java.util.concurrent.TimeUnit.SECONDS;
-import static org.apache.cassandra.service.ActiveRepairService.ParentRepairStatus;
 import static org.apache.cassandra.service.ActiveRepairService.ParentRepairStatus.FAILED;
 import static org.apache.cassandra.service.ActiveRepairService.ParentRepairStatus.valueOf;
 import static org.apache.cassandra.tools.NodeProbe.JMX_NOTIFICATION_POLL_INTERVAL_SECONDS;

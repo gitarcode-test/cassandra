@@ -32,13 +32,11 @@ import org.slf4j.LoggerFactory;
 import io.airlift.airline.Arguments;
 import io.airlift.airline.Command;
 import io.airlift.airline.Option;
-import net.openhft.chronicle.core.io.Closeable;
 import net.openhft.chronicle.queue.ChronicleQueue;
 import net.openhft.chronicle.queue.impl.single.SingleChronicleQueueBuilder;
 import org.apache.cassandra.fqltool.FQLQuery;
 import org.apache.cassandra.fqltool.FQLQueryIterator;
 import org.apache.cassandra.fqltool.QueryReplayer;
-import org.apache.cassandra.utils.AbstractIterator;
 import org.apache.cassandra.utils.MergeIterator;
 
 /**

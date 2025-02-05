@@ -28,7 +28,6 @@ import java.util.stream.Collectors;
 
 import org.apache.cassandra.distributed.Cluster;
 import org.apache.cassandra.distributed.api.Feature;
-import org.apache.cassandra.distributed.api.IInstance;
 import org.apache.cassandra.distributed.api.IInvokableInstance;
 import org.apache.cassandra.distributed.api.SimpleQueryResult;
 import org.apache.cassandra.index.Index;

@@ -19,8 +19,6 @@
  *
  */
 package org.apache.cassandra.index;
-
-import java.io.UncheckedIOException;
 import java.nio.ByteBuffer;
 import java.util.Collection;
 import java.util.Collections;
@@ -31,7 +29,6 @@ import java.util.Set;
 import java.util.concurrent.Callable;
 import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.function.Supplier;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 

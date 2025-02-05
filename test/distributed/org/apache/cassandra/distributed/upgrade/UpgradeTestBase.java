@@ -51,7 +51,6 @@ import org.apache.cassandra.utils.ByteBufferUtil;
 import org.apache.cassandra.utils.SimpleGraph;
 
 import static org.apache.cassandra.config.CassandraRelevantProperties.SKIP_GC_INSPECTOR;
-import static org.apache.cassandra.distributed.shared.Versions.Version;
 import static org.apache.cassandra.distributed.shared.Versions.find;
 import static org.apache.cassandra.utils.SimpleGraph.sortedVertices;
 

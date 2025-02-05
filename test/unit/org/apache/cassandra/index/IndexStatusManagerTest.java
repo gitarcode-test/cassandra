@@ -35,7 +35,6 @@ import org.apache.cassandra.locator.EndpointsForRange;
 import org.apache.cassandra.locator.InetAddressAndPort;
 import org.apache.cassandra.locator.NetworkTopologyStrategy;
 import org.apache.cassandra.locator.Replica;
-import org.apache.cassandra.locator.ReplicaUtils;
 import org.apache.cassandra.schema.IndexMetadata;
 import org.apache.cassandra.utils.JsonUtils;
 

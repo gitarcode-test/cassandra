@@ -21,7 +21,6 @@ package org.apache.cassandra.concurrent;
 import org.apache.cassandra.concurrent.InfiniteLoopExecutor.Daemon;
 import org.apache.cassandra.concurrent.InfiniteLoopExecutor.Interrupts;
 import org.apache.cassandra.concurrent.InfiniteLoopExecutor.SimulatorSafe;
-import org.apache.cassandra.utils.JVMStabilityInspector;
 import org.apache.cassandra.utils.Shared;
 
 import static java.lang.Thread.*;
