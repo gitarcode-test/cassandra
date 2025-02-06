@@ -34,9 +34,6 @@ import org.junit.Test;
 import org.apache.cassandra.harry.checker.ModelChecker;
 import org.apache.cassandra.harry.sut.TokenPlacementModel;
 import org.apache.cassandra.harry.sut.TokenPlacementModel.Replica;
-
-import static org.apache.cassandra.distributed.test.log.PlacementSimulator.SimulatedPlacements;
-import static org.apache.cassandra.distributed.test.log.PlacementSimulator.Transformations;
 import static org.apache.cassandra.distributed.test.log.PlacementSimulator.assertPlacements;
 import static org.apache.cassandra.distributed.test.log.PlacementSimulator.assertRanges;
 import static org.apache.cassandra.distributed.test.log.PlacementSimulator.filter;
@@ -47,10 +44,6 @@ import static org.apache.cassandra.distributed.test.log.PlacementSimulator.repla
 import static org.apache.cassandra.distributed.test.log.PlacementSimulator.split;
 import static org.apache.cassandra.distributed.test.log.PlacementSimulator.superset;
 import static org.apache.cassandra.harry.sut.TokenPlacementModel.Node;
-import static org.apache.cassandra.harry.sut.TokenPlacementModel.NodeFactory;
-import static org.apache.cassandra.harry.sut.TokenPlacementModel.Range;
-import static org.apache.cassandra.harry.sut.TokenPlacementModel.ReplicationFactor;
-import static org.apache.cassandra.harry.sut.TokenPlacementModel.SimpleReplicationFactor;
 import static org.junit.Assert.assertTrue;
 
 public class PlacementSimulatorTest
