@@ -38,7 +38,6 @@ import org.apache.cassandra.net.MessageDelivery;
 import org.apache.cassandra.net.MessagingService;
 import org.apache.cassandra.service.ActiveRepairService;
 import org.apache.cassandra.service.paxos.cleanup.PaxosRepairState;
-import org.apache.cassandra.streaming.StreamPlan;
 import org.apache.cassandra.utils.Clock;
 import org.apache.cassandra.utils.FBUtilities;
 import org.apache.cassandra.utils.MBeanWrapper;
