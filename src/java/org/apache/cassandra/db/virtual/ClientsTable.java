@@ -18,7 +18,6 @@
 package org.apache.cassandra.db.virtual;
 
 import java.net.InetSocketAddress;
-import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 import org.apache.cassandra.db.marshal.BooleanType;
