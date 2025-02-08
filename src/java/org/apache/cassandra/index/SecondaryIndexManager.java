@@ -16,8 +16,6 @@
  * limitations under the License.
  */
 package org.apache.cassandra.index;
-
-import java.io.UncheckedIOException;
 import java.lang.reflect.Constructor;
 import java.util.*;
 import java.util.concurrent.Callable;
