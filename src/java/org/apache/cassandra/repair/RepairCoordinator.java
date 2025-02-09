@@ -66,7 +66,6 @@ import org.apache.cassandra.dht.Token;
 import org.apache.cassandra.exceptions.RepairException;
 import org.apache.cassandra.locator.EndpointsForRange;
 import org.apache.cassandra.locator.InetAddressAndPort;
-import org.apache.cassandra.locator.Replica;
 import org.apache.cassandra.metrics.StorageMetrics;
 import org.apache.cassandra.repair.messages.RepairOption;
 import org.apache.cassandra.repair.state.CoordinatorState;
