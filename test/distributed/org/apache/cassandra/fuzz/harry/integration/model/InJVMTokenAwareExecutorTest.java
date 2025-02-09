@@ -32,7 +32,6 @@ import org.apache.cassandra.harry.core.Configuration;
 import org.apache.cassandra.harry.core.Run;
 import org.apache.cassandra.harry.ddl.SchemaGenerators;
 import org.apache.cassandra.harry.ddl.SchemaSpec;
-import org.apache.cassandra.harry.model.QuiescentChecker;
 import org.apache.cassandra.harry.model.RepairingLocalStateValidator;
 import org.apache.cassandra.harry.sut.SystemUnderTest;
 import org.apache.cassandra.harry.sut.TokenPlacementModel;
