@@ -24,9 +24,6 @@ import org.slf4j.LoggerFactory;
 
 import org.apache.cassandra.harry.core.Run;
 import org.apache.cassandra.harry.corruptor.AddExtraRowCorruptor;
-import org.apache.cassandra.harry.corruptor.ChangeValueCorruptor;
-import org.apache.cassandra.harry.corruptor.HideRowCorruptor;
-import org.apache.cassandra.harry.corruptor.HideValueCorruptor;
 import org.apache.cassandra.harry.corruptor.QueryResponseCorruptor;
 import org.apache.cassandra.harry.runner.HarryRunner;
 import org.apache.cassandra.harry.operations.Query;
