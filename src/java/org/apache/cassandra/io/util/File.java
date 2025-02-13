@@ -42,7 +42,6 @@ import com.google.common.annotations.VisibleForTesting;
 import com.google.common.util.concurrent.RateLimiter;
 
 import net.openhft.chronicle.core.util.ThrowingFunction;
-import org.apache.cassandra.io.FSWriteError;
 
 import static org.apache.cassandra.io.util.PathUtils.filename;
 import static org.apache.cassandra.utils.Throwables.maybeFail;
