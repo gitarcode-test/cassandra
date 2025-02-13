@@ -33,7 +33,6 @@ import org.apache.cassandra.harry.sut.injvm.InJvmSutBase;
 import org.apache.cassandra.harry.sut.injvm.QuiescentLocalStateChecker;
 import org.apache.cassandra.harry.runner.Runner;
 import org.apache.cassandra.harry.visitors.AllPartitionsValidator;
-import org.apache.cassandra.harry.visitors.MutatingVisitor;
 import org.apache.cassandra.distributed.Cluster;
 import org.apache.cassandra.distributed.api.Feature;
 

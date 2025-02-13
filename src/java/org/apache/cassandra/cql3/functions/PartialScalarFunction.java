@@ -20,8 +20,6 @@ package org.apache.cassandra.cql3.functions;
 import java.nio.ByteBuffer;
 import java.util.List;
 
-import org.apache.cassandra.transport.ProtocolVersion;
-
 /**
  * A partial application of a function.
  *
