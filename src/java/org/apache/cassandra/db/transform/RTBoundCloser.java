@@ -19,7 +19,6 @@ package org.apache.cassandra.db.transform;
 
 import org.apache.cassandra.db.Clustering;
 import org.apache.cassandra.db.DeletionTime;
-import org.apache.cassandra.db.ReadExecutionController;
 import org.apache.cassandra.db.partitions.UnfilteredPartitionIterator;
 import org.apache.cassandra.db.rows.*;
 
