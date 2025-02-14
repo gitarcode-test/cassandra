@@ -19,7 +19,6 @@
 package org.apache.cassandra.index.sai.disk.format;
 
 import java.io.IOException;
-import java.io.UncheckedIOException;
 import java.util.Set;
 
 import org.apache.cassandra.db.lifecycle.LifecycleNewTracker;
