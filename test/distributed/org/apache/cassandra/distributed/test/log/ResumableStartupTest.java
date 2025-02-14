@@ -32,7 +32,6 @@ import org.apache.cassandra.harry.sut.injvm.InJVMTokenAwareVisitExecutor;
 import org.apache.cassandra.harry.sut.injvm.InJvmSut;
 import org.apache.cassandra.harry.sut.injvm.QuiescentLocalStateChecker;
 import org.apache.cassandra.harry.visitors.GeneratingVisitor;
-import org.apache.cassandra.harry.visitors.MutatingRowVisitor;
 import org.apache.cassandra.harry.visitors.Visitor;
 import org.apache.cassandra.config.CassandraRelevantProperties;
 import org.apache.cassandra.distributed.Cluster;

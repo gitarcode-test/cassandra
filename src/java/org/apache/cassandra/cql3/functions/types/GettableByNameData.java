@@ -24,8 +24,6 @@ import java.nio.ByteBuffer;
 import java.util.*;
 
 import com.google.common.reflect.TypeToken;
-
-import org.apache.cassandra.cql3.functions.types.exceptions.CodecNotFoundException;
 import org.apache.cassandra.cql3.functions.types.exceptions.InvalidTypeException;
 
 /**

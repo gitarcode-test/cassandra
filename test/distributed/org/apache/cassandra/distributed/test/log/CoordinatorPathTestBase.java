@@ -92,8 +92,6 @@ import org.apache.cassandra.utils.FBUtilities;
 import org.apache.cassandra.utils.concurrent.AsyncPromise;
 import org.apache.cassandra.utils.concurrent.CountDownLatch;
 import org.apache.cassandra.utils.concurrent.Future;
-
-import static org.apache.cassandra.distributed.test.log.PlacementSimulator.RefSimulatedPlacementHolder;
 import static org.apache.cassandra.distributed.test.log.PlacementSimulator.SimulatedPlacementHolder;
 import static org.apache.cassandra.distributed.test.log.PlacementSimulator.SimulatedPlacements;
 import static org.apache.cassandra.net.Verb.GOSSIP_DIGEST_ACK;
