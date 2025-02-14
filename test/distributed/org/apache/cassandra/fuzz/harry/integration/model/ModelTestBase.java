@@ -31,7 +31,6 @@ import org.apache.cassandra.harry.ddl.SchemaGenerators;
 import org.apache.cassandra.harry.ddl.SchemaSpec;
 import org.apache.cassandra.harry.runner.Runner;
 import org.apache.cassandra.harry.runner.UpToLtsRunner;
-import org.apache.cassandra.harry.visitors.MutatingRowVisitor;
 import org.apache.cassandra.harry.visitors.MutatingVisitor;
 import org.apache.cassandra.harry.visitors.SingleValidator;
 

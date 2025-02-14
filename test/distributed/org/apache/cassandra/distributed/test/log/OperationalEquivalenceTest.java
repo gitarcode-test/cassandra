@@ -33,7 +33,6 @@ import org.apache.cassandra.config.DatabaseDescriptor;
 import org.apache.cassandra.harry.sut.TokenPlacementModel;
 import org.apache.cassandra.locator.EndpointsForRange;
 import org.apache.cassandra.locator.Replica;
-import org.apache.cassandra.tcm.AtomicLongBackedProcessor;
 import org.apache.cassandra.tcm.ClusterMetadata;
 import org.apache.cassandra.tcm.membership.Location;
 import org.apache.cassandra.tcm.membership.NodeAddresses;
