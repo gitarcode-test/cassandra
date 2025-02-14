@@ -54,9 +54,6 @@ import org.apache.cassandra.distributed.api.IIsolatedExecutor.SerializableQuadFu
 import org.apache.cassandra.distributed.api.IIsolatedExecutor.SerializableRunnable;
 import org.apache.cassandra.distributed.api.IIsolatedExecutor.SerializableSupplier;
 import org.apache.cassandra.distributed.impl.IsolatedExecutor;
-import org.apache.cassandra.simulator.systems.InterceptibleThreadFactory.ConcreteInterceptibleThreadFactory;
-import org.apache.cassandra.simulator.systems.InterceptibleThreadFactory.PlainThreadFactory;
-import org.apache.cassandra.simulator.systems.InterceptingExecutor.DiscardingSequentialExecutor;
 import org.apache.cassandra.simulator.systems.InterceptingExecutor.InterceptingTaskFactory;
 import org.apache.cassandra.simulator.systems.InterceptingExecutor.InterceptingLocalAwareSequentialExecutor;
 import org.apache.cassandra.simulator.systems.InterceptingExecutor.InterceptingPooledExecutor;

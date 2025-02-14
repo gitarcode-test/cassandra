@@ -16,8 +16,6 @@
  * limitations under the License.
  */
 package org.apache.cassandra.index.sai.plan;
-
-import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import java.util.function.Function;
@@ -34,7 +32,6 @@ import org.apache.cassandra.exceptions.InvalidRequestException;
 import org.apache.cassandra.index.Index;
 import org.apache.cassandra.index.sai.StorageAttachedIndex;
 import org.apache.cassandra.index.sai.metrics.TableQueryMetrics;
-import org.apache.cassandra.schema.TableMetadata;
 
 public class StorageAttachedIndexQueryPlan implements Index.QueryPlan
 {
