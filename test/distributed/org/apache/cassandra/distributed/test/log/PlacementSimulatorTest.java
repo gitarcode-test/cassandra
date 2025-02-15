@@ -50,7 +50,6 @@ import static org.apache.cassandra.harry.sut.TokenPlacementModel.Node;
 import static org.apache.cassandra.harry.sut.TokenPlacementModel.NodeFactory;
 import static org.apache.cassandra.harry.sut.TokenPlacementModel.Range;
 import static org.apache.cassandra.harry.sut.TokenPlacementModel.ReplicationFactor;
-import static org.apache.cassandra.harry.sut.TokenPlacementModel.SimpleReplicationFactor;
 import static org.junit.Assert.assertTrue;
 
 public class PlacementSimulatorTest
