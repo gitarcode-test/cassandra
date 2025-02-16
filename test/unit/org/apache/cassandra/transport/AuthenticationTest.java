@@ -26,7 +26,6 @@ import com.google.common.collect.ImmutableMap;
 import org.apache.cassandra.cql3.CQLTester;
 import org.apache.cassandra.cql3.QueryProcessor;
 import org.apache.cassandra.exceptions.AuthenticationException;
-import org.apache.cassandra.service.QueryState;
 import org.apache.cassandra.transport.messages.AuthResponse;
 import org.apache.cassandra.transport.messages.AuthSuccess;
 import org.apache.cassandra.transport.messages.AuthenticateMessage;
