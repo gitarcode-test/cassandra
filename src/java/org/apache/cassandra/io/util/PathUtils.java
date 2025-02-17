@@ -19,7 +19,6 @@ package org.apache.cassandra.io.util;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
-import java.io.IOError;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UncheckedIOException;
